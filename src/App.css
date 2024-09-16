@@ -1,38 +1,56 @@
 .App {
+  height: 100vh;
+  width: 600px;
+  background-color: cadetblue;
+  margin: 0px auto;
+  border-radius: 5px;
+  border: 3px solid black;
+  margin-top: 10px;
+}
+
+.AddTask{
+  height: 150px;
+  width: 100%;
+  /* background-color: rgb(210, 236, 236); */
+  background-color: lightsalmon;
+  border: 2px solid gray;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(8, 15, 35);
+  color: aliceblue;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: crimson;
+  cursor: pointer;
+}
+
+#I {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: 3px solid black;
+  margin-left: 80px;
   text-align: center;
+  font-size: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.List{
+  text-align: center;
+  padding: 10px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#delete{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-left: 100px;
+  width: max-content;
 }
